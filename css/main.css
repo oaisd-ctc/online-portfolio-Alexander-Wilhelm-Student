@@ -1,0 +1,129 @@
+body {
+    background-image: url("../images/zased.gif");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom 0px;
+    background-size:cover;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a.navtext {
+    color:black;
+}
+
+.navbar {
+    display: flex;
+    /*position:fixed;*/
+    background-image: url("../images/cd.jpg");
+    background-size: 100vw;
+    background-attachment: fixed;
+    background-color: #CCCCCC;
+    min-height: 60px;
+    margin: 0;
+    top:0;
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Impact", "Impact Condensed", sans-serif;
+
+}
+
+.home-buttons-container {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navitem {
+    text-align: center;
+    margin: 0.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding: 0em;
+    font-size: 2em;
+    min-width: 200px;
+    width: 13vw;
+    color: black;
+}
+
+.homebutton {
+    text-decoration: none;
+    text-decoration-line: none;
+    border-radius: 0.15em;
+    background-color: #CCCCCC;
+    margin: 0.5em;
+    padding:1em;
+    font-size: 3em;
+    min-width: 160px;
+    width: 30vw;
+    color: black;
+
+    font-family: sans-serif;
+    
+    text-align: center;
+}
+
+
+.aboutme-item {
+    margin: 30px;
+    font-family: sans-serif;
+    font-size: 1.75em;
+    padding: 0.4em;
+    border-width: 4px;
+    border-style:ridge;
+}
+
+#aboutme-container {
+    display: flex;
+    margin: 0;
+    top:0;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Impact", "Impact Condensed", sans-serif;
+}
+
+#aboutme-bio {
+    min-width: 300px;
+    width:60vw;
+    line-height:150%;
+}
+
+#aboutme-portrait {
+    min-width:240px;
+    width:20vw;
+    padding: 0;
+}
+
+#title {
+    text-align: center;
+    font-size: 8em;
+    color: #FF9900;
+    text-shadow: 0px 2px 2px #dd8500, 0px 4px 4px #bb7000, 0px 8px 8px #995c00;
+    font-family: "Impact", "Impact Condensed", sans-serif;
+}
+
+#subtitle {
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    text-shadow: 0px 1px 1px #DDDDDD, 0px 2px 2px #BBBBBB, 0px 4px 4px #999999;
+    font-family: sans-serif;
+}
+
+#header {
+    text-align: left;
+    margin-left: 1em;
+    font-size: 6em;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px #DDDDDDFF, 4px 4px 4px #BBBBBBBB, 6px 6px 6px #99999999;
+    font-family: "Impact", "Impact Condensed", sans-serif;
+    line-height: 40%;
+}
+
