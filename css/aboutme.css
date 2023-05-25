@@ -1,0 +1,29 @@
+.aboutme-item {
+    margin: 30px;
+    font-family: sans-serif;
+    font-size: 1.75em;
+    padding: 0.4em;
+    border-width: 4px;
+    border-style:ridge;
+}
+
+#aboutme-container {
+    display: flex;
+    margin: 0;
+    top:0;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: "Impact", "Impact Condensed", sans-serif;
+}
+
+#aboutme-bio {
+    min-width: 300px;
+    width:60vw;
+    line-height:150%;
+}
+
+#aboutme-portrait {
+    min-width:240px;
+    width:20vw;
+    padding: 0;
+}
