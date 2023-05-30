@@ -71,6 +71,31 @@ a.navtext {
     text-align: center;
 }
 
+.projectbutton {
+    text-decoration: none;
+    text-decoration-line: none;
+    border-radius: 0.15em;
+    background-color: #CCCCCC;
+    margin: 0.25em;
+    padding: 1em;
+    font-size: 2.5em;
+    min-width: 160px;
+    width: 25vw;
+    color: black;
+
+    font-family: sans-serif;
+
+    text-align: center;
+}
+
+.projectbutton a {
+    color:black;
+}
+
+a.sourcelink {
+    color:blue;
+}
+
 #title {
     text-align: center;
     font-size: 8em;
