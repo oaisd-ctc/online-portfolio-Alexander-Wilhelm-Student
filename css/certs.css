@@ -1,14 +1,14 @@
 #certs-container {
     margin: 0;
-    width: 100vw;
-    max-width: 100vw;
+    width: 100%;
+    max-width: 100%;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.certs-item { /*for reasons that escape me having only three columns causes the width of the page to expand a bit, in spite of my hax to make sure it doesn't. but then 4 is fine?????*/
+.certs-item {
     display: flex;
     flex-wrap: wrap;
     margin:1em;
@@ -20,6 +20,13 @@
     text-align: center;
     color:#ffffff;
     padding:0;
+    transition: filter 0.15s, transform 0.15s;
+}
+
+.certs-item:hover {
+    transition: filter 0.15s ease-out, transform 0.15s ease-out;
+    filter: brightness(120%);
+    transform: scale(1.15, 1.15);
 }
 
 .certs-text {
