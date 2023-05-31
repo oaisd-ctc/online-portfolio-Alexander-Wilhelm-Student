@@ -1,0 +1,65 @@
+.projectbutton {
+
+    display: flex;
+    text-decoration: none;
+    text-decoration-line: none;
+    
+    border-radius: 0.15em;
+    border-style:ridge;
+    border-color:#CCCCCC;
+    border-width:5px;
+    background-color: #CCCCCC;
+    margin: 0.25em;
+    padding: 1em;
+    font-size: 2.5em;
+    min-width: 240px;
+    width: 25vw;
+    min-height:3em;
+    color: black;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+
+    background-position: center;
+    background-size:100%;
+    filter: brightness(100%);
+    transition: filter 0.15s ease-out, transform 0.15s ease-out;
+    
+}
+
+.projectbutton:hover {
+    transition: filter 0.15s ease-out, transform 0.15s ease-out;
+    filter: brightness(120%);
+    transform: scale(1.05, 1.05);
+}
+
+.projectbutton a {
+    color:black;
+}
+
+a.sourcelink {
+    color:blue;
+}
+
+@media only screen and (max-width: 791px) {
+    .projectbutton {
+        font-size: 2em;
+        min-height:4em;
+        width: 80vw;
+    }
+  }
+
+/* project-specific styles */
+#wheel {
+    background-image: url(../images/projects/wheel.png); 
+    color: white;
+}
+
+#inherpoly {
+    background-image: url(../images/projects/inherpoly2.png);
+}
+
+#rs2009 {
+    background-image: url(../images/projects/rs2009.png)
+}
