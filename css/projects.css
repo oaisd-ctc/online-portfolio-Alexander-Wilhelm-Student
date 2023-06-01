@@ -42,7 +42,7 @@ a.sourcelink {
     color:blue;
 }
 
-@media only screen and (max-width: 791px) {
+@media only screen and ((max-width: 791px) or (max-width:5in)){
     .projectbutton {
         font-size: 2em;
         min-height:4em;

@@ -51,7 +51,7 @@
     transform: scale(1.5, 1.5);
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and ((max-width: 1050px) or (max-width:5in)){
     #aboutme-portrait {
         min-width:240px;
         width:30vw;
