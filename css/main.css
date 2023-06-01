@@ -138,7 +138,7 @@ a.navtext:hover {
   }
 
 
-  @media only screen and (max-width: 759px) {
+  @media only screen and ((max-width: 759px) or (max-width:5in)){
     #header {
         font-size: 4em;
         text-align: center;
@@ -146,7 +146,7 @@ a.navtext:hover {
     }
   }
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and ((max-width: 1050px) or (max-width:5in)){
     .homebutton {
         font-size: 4em;
         width: 60vw;
