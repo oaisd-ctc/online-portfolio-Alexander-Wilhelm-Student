@@ -1,6 +1,5 @@
 .aboutme-item {
     margin: 30px;
-    font-family: sans-serif;
     padding: 0.4em;
     border-width: 4px;
     border-style:ridge;
@@ -12,7 +11,6 @@
     top:0;
     justify-content: center;
     flex-wrap: wrap;
-    font-family: "Impact", "Impact Condensed", sans-serif;
     padding: 2em;
     
 }
