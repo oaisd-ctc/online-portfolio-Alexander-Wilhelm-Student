@@ -137,7 +137,7 @@ a.navtext:hover {
   }
 
 
-  @media only screen and ((max-width: 759px) or (max-width:5in)){
+  @media ((max-width: 759px) or (max-width:5in)){
     #header {
         font-size: 4em;
         text-align: center;
@@ -146,10 +146,14 @@ a.navtext:hover {
 
     body {
         background-image: none; /* this is bad but it will work */
+        background-color:#000;
     }
+
   }
 
-  @media only screen and ((max-width: 1050px) or (max-width:5in)){
+
+
+  @media ((max-width: 1050px) or (max-width:5in)){
     .homebutton {
         font-size: 4em;
         width: 60vw;
