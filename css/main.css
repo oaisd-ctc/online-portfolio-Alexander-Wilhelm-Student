@@ -145,8 +145,7 @@ a.navtext:hover {
     }
 
     body {
-        background-size: 150% 250%; /* this is bad but it will work */
-
+        background-image: none; /* this is bad but it will work */
     }
   }
 
