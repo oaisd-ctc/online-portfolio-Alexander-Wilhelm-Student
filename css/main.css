@@ -2,7 +2,7 @@ body {
     background-image: url("../images/flames.gif");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: bottom;
+    background-position: bottom 0px;
     background-size: cover;
     background-color: #000;
     display:block;
@@ -11,7 +11,7 @@ body {
     padding: 0;
     max-width:100vw;
 
-    font-family: "Bahnschrift", sans-serif;
+    font-family: hwygoth, sans-serif;
 }
 
 a {
@@ -34,7 +34,7 @@ a.navtext:hover {
     background-image: url("../images/cd.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: bottom;
+    background-position: bottom 0px;
     background-repeat: no-repeat;
     background-color: #CCCCCC;
     
@@ -136,6 +136,11 @@ a.navtext:hover {
     src: url(../misc/BlackMustang.ttf);
   }
 
+  @font-face {
+    font-family: hwygoth;
+    src: url(../misc/hwygoth.ttf);
+  }
+
 
   @media only screen and ((max-width: 759px) or (max-width:5in)){
     #header {
@@ -145,13 +150,14 @@ a.navtext:hover {
     }
         body {
             background-attachment: scroll;
-            background-size: 250% 250%; /* this is bad but it will work */
+            background-size: 250% 250%; /* this is bad but it will work. it doesn't properly fix the problem, but it fixes the page on the one device i've actually tested this with.
+            frankly, if your device is taller than mine, fuck you, i can't be assed to fix it.
+            
+            
+            fuck this language*/
         }
 
   }
-
-
-
 
   @media ((max-width: 1050px) or (max-width:5in)){
     .homebutton {
@@ -159,3 +165,6 @@ a.navtext:hover {
         width: 60vw;
     }
   }
+
+
+  /* not css3 compliant i think. idfc */
