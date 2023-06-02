@@ -137,17 +137,15 @@ a.navtext:hover {
   }
 
 
-  @media only screen and (max-width:5in){
+  @media only screen and ((max-width: 759px) or (max-width:5in)){
     #header {
         font-size: 4em;
         text-align: center;
         margin-left: 0;
     }
-
-    body {
-        background-image: none; /* this is bad but it will work */
-        background-color:#fff;
-    }
+        body {
+            background-size: 150% 250%; /* this is bad but it will work */
+        }
 
   }
 
