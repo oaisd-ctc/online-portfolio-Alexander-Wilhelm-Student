@@ -1,6 +1,6 @@
 body {
     background-image: url("../images/flames.gif");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: bottom 0px;
     background-size: cover;
@@ -142,6 +142,11 @@ a.navtext:hover {
         font-size: 4em;
         text-align: center;
         margin-left: 0;
+    }
+
+    body {
+        background-size: 150% 250%; /* this is bad but it will work */
+
     }
   }
 
