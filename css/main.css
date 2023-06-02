@@ -2,7 +2,7 @@ body {
     background-image: url("../images/flames.gif");
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: bottom 0px;
+    background-position: bottom;
     background-size: cover;
     background-color: #000;
     display:block;
@@ -34,7 +34,7 @@ a.navtext:hover {
     background-image: url("../images/cd.jpg");
     background-size: cover;
     background-attachment: fixed;
-    background-position: bottom 0px;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-color: #CCCCCC;
     
@@ -81,7 +81,7 @@ a.navtext:hover {
     margin: 0.5em;
     padding: 0.25em;
     font-size: 4em;
-    min-width: 160px, min-content;
+    min-width: 160px;
     width: 20vw;
     color: black;
 
@@ -137,7 +137,7 @@ a.navtext:hover {
   }
 
 
-  @media ((max-width: 759px) or (max-width:5in)){
+  @media only screen and (max-width:5in){
     #header {
         font-size: 4em;
         text-align: center;
