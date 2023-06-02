@@ -146,10 +146,11 @@ a.navtext:hover {
 
     body {
         background-image: none !important; /* this is bad but it will work */
-        background-color:#fff;
+        background-color:#fff !important;
     }
 
   }
+
 
 
 
