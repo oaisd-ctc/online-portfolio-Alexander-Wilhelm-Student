@@ -144,7 +144,8 @@ a.navtext:hover {
         margin-left: 0;
     }
         body {
-            background-size: 150% 250%; /* this is bad but it will work */
+            background-attachment: scroll;
+            background-size: 250% 250%; /* this is bad but it will work */
         }
 
   }

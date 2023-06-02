@@ -43,5 +43,10 @@
 @media only screen and ((max-width: 759px) or (max-width:5in)){
     .certs-item {
         height:25vh;
+        margin-bottom:2em;
+    }
+
+    .certs-text {
+        font-size: 1.35em;
     }
   }
