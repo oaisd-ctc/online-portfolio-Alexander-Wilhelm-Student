@@ -116,6 +116,20 @@ a.navtext:hover {
     line-height: 40%;
 }
 
+#subheader {
+    font-weight:normal;
+    text-align: left;
+    margin-left: 3em;
+    font-size: 2em;
+    color: #FFFFFF;
+    line-height: 40%;
+}
+
+#subheader a {
+    text-decoration: none;
+    color: #FF9900;
+}
+
 @keyframes navcolor {
     0% {
         filter: saturate(50%) hue-rotate(0);
